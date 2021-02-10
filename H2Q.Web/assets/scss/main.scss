@@ -1,0 +1,109 @@
+@import "vars";
+
+.bg-gray{
+  background-color: $background;
+}
+
+.main-color{
+  color : $main-color;
+  font-weight: 900;
+}
+
+.sec-color{
+  color: $sec-color;
+}
+
+.container-fluid{
+  background-color: $background;
+  font-family: $main-font;
+  min-height: 100vh;
+}
+
+section{
+ &.main-section{
+   margin-top: 60px;
+    background-color: white;
+    border-radius: 7px;
+    .heading{ 
+      background: $main-color;
+      border-radius: 4px;
+      padding: 10px;
+      margin-top: -40px;
+      margin-bottom: 20px;
+      h2{
+        font-size: 25px;
+        font-weight: 300;
+      }
+      h2,p{color: white;}
+    } 
+    
+    form{
+      .underline-input, .custom-select {
+        border-style: hidden;
+        border-bottom-style: solid ;
+        border-color: #ced4da;
+        margin-bottom: 15px;
+      }
+      .btn-primary{
+        width: 200px;
+        background-color: $sec-color;
+        border-color: $sec-color;
+      }
+      .btn-primary:hover{
+        width: 200px;
+        background-color: $sec-color;
+        border-color: $sec-color;
+      }
+      .btn-primary:focus{
+        width: 200px;
+        background-color: $sec-color;
+        border-color: $sec-color;
+      }
+    }
+    .underline-input:focus{
+      outline: none;
+    }
+  }
+
+  table{
+    th{color: $main-color;}
+    .row-heading{
+      color: $sec-color;
+    }
+  }
+
+}
+
+.underline-input:focus{
+  outline: none;
+}
+
+.underline-input, .custom-select {
+  border-style: hidden;
+  border-bottom-style: solid ;
+  border-color: #ced4da;
+  margin-bottom: 15px;
+}
+
+.btn-primary{
+  width: 200px;
+  background-color: $sec-color;
+  border-color: $sec-color;
+}
+.btn-primary:hover{
+  width: 200px;
+  background-color: $main-color;
+  border-color: $main-color;
+}
+.btn-primary:focus{
+  width: 200px;
+  background-color: $main-color;
+  border-color: $main-color;
+}
+
+
+
+
+ 
+@import "sidenav","footer", "configuracionAgronomicaCampo","datosNegocio"
+

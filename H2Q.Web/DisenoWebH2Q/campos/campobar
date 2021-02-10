@@ -1,0 +1,45 @@
+<div class="col-2">
+        <div class="col-2">
+          <div class="sidenav">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h3>Titulo</h3>
+                <p>Subtitulo</p>
+                <hr>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col-12">
+                <a href="5seleccionEquipamientoOt.html">Seleccion equipamiento</a>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col-12">
+                <a href="6seleccionProductosAgroquimicos.html">Seleccion productos agroquimicos</a>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col-12">
+                <a href="8configuracionLiquido.html">Configuracion volumen aplicado</a>
+              </div>
+            </div>
+
+            <div class="row p-2">
+              <div class="col-12">
+                <a href="10programacionAplicador.html">Programacion aplicador</a>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col-12">
+                <a href="11reporteResumen.html">Reportes</a>
+              </div>
+              <div class="row p-2">
+                <div class="col-12">
+                  <a href="12reporteExtendido.html">Reporte extendido</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>

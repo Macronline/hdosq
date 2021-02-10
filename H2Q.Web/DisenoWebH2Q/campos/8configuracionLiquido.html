@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos negocio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+
+  <!-- Js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/main.js"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- navbar -->
+      <!-- navbar -->
+
+
+      <div class="col-10">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10">
+            <h1>Configuracion volumen Liquido</h1>
+            <section class="main-section shadow p-3">
+              <div class="heading shadow">
+                <h2>Configuracion volumen Liquido</h1>
+                  <p>Configure el volumen del liquido</p>
+              </div>
+              <form>
+                <div class="row">
+                  <div class="col-4">
+                    <label for="">* Mojamiento (lt/hta)</label>
+                    <input placeholder="Mojamiento (lt/hta)" type="text" class="form-control underline-input">
+
+                    <label for="">Velocidad (m/s)</label>
+                    <div class="row">
+                      <div class="col-9">
+                        <input placeholder="Velocidad (m/s)" type="text" class="form-control underline-input">
+                      </div>
+                      <div class="col-3">
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">SD%: 10%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </span>
+
+                    <label for="">Velocidad maxima viento (km/h)</label>
+                    <input placeholder="Velocidad maxima viento (km/h)" type="text"
+                      class="form-control underline-input">
+
+                    <label for="">* Q requerido (lt/min)</label>
+                    <input placeholder="Q requerido (lt/min)" type="text" class="form-control underline-input">
+                    <h6>*Caudal calculado a partir de la relacion de velocidad, distancia entre hileras y mojamiento por
+                      hectareas</h6>
+                  </div>
+                  <div class="col-4">
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Volumen aplicado sector (lt): 5000</span>
+                      </div>
+                    </div>
+                    <label for="">Revoluciones (rpm)</label>
+                    <div class="row">
+                      <div class="col-9">
+                        <input placeholder="Revoluciones (rpm)" type="text" class="form-control underline-input">
+                      </div>
+                      <div class="col-3">
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">SD%: 10%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <label for="">Temperatura maxima (C)</label>
+                    <input placeholder="Temperatura maxima (C)" type="text" class="form-control underline-input">
+                  </div>
+                  <div class="col-4">
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Numero de hectareas: 5</span>
+                      </div>
+                    </div>
+                    <label for="">Presion (psi)</label>
+                    <div class="row">
+                      <div class="col-9">
+                        <input placeholder="Presion (psi)" type="text" class="form-control underline-input">
+                      </div>
+                      <div class="col-3">
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">SD%: 10%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <label for="">Boquilla superior</label>
+                    <input placeholder="Temperatura maxima (C)" type="text" class="form-control underline-input">
+                    <select class="custom-select">
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+
+                    <label for="">Boquilla media</label>
+                    <select class="custom-select">
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+
+                    <label for="">Boquilla inferior</label>
+                    <select class="custom-select">
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+
+                    <label for="">Q calculado</label>
+                    <input placeholder="Temperatura maxima (C)" type="text" class="form-control underline-input">
+
+                    <h6>** Calculado a partir de especificacion tecnica de equipo</h6>
+                  </div>
+
+                </div>
+              </form>
+            </section>
+          </div>
+          <div class="col-1"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>

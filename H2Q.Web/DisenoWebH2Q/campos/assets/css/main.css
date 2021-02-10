@@ -1,0 +1,130 @@
+.main-color {
+  color: #10316b;
+  font-weight: 900;
+}
+
+.sec-color {
+  color: #0b8457;
+}
+
+.container-fluid {
+  background-color: #eee;
+  font-family: "Roboto";
+  min-height: 100vh;
+}
+
+section.main-section {
+  margin-top: 60px;
+  background-color: white;
+  border-radius: 7px;
+}
+section.main-section .heading {
+  background: #10316b;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+section.main-section .heading h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+section.main-section .heading h2, section.main-section .heading p {
+  color: white;
+}
+section.main-section form .underline-input, section.main-section form .custom-select {
+  border-style: hidden;
+  border-bottom-style: solid;
+  border-color: #ced4da;
+  margin-bottom: 15px;
+}
+section.main-section form .btn-primary {
+  width: 200px;
+  background-color: #0b8457;
+  border-color: #0b8457;
+}
+section.main-section form .btn-primary:hover {
+  width: 200px;
+  background-color: #0b8457;
+  border-color: #0b8457;
+}
+section.main-section form .btn-primary:focus {
+  width: 200px;
+  background-color: #0b8457;
+  border-color: #0b8457;
+}
+section.main-section .underline-input:focus {
+  outline: none;
+}
+section table th {
+  color: #10316b;
+}
+section table .row-heading {
+  color: #0b8457;
+}
+
+.underline-input:focus {
+  outline: none;
+}
+
+.underline-input, .custom-select {
+  border-style: hidden;
+  border-bottom-style: solid;
+  border-color: #ced4da;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  width: 200px;
+  background-color: #0b8457;
+  border-color: #0b8457;
+}
+
+.btn-primary:hover {
+  width: 200px;
+  background-color: #10316b;
+  border-color: #10316b;
+}
+
+.btn-primary:focus {
+  width: 200px;
+  background-color: #10316b;
+  border-color: #10316b;
+}
+
+.sidenav {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: white;
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.sidenav h3 {
+  color: #10316b;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.sidenav a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  display: block;
+}
+.sidenav a:hover {
+  color: #10316b;
+}
+
+.footer {
+  background-color: #2F2519;
+}
+
+/*# sourceMappingURL=main.css.map */
